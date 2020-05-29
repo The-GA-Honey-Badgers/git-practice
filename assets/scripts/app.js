@@ -7,7 +7,5 @@
 // require('./example')
 
 $(() => {
-  $('h1').on('click', () => {
-    $('body').append('<p>Hello Team Honey Badgers!!</p>')
-  })
+  // your JS code goes here
 })
