@@ -1,1 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
+body {
+  background-image: url('https://toddsharon.s3.amazonaws.com/0f556426c4cf4ba12837ef459f09118f');
+}
+
+h1 {
+     text-shadow: 5px -5px #323ea8, 4px -4px white;
+     font-weight: bold;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     line-height: 8rem;
+}
