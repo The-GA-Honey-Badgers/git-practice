@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Honey Bagder</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -12,6 +12,77 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+
+  <div id="page-container">
+        <div id="content-wrap">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffaa41">
+          <div id="TPSY-header">Honey Badgers 4Ever</div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <div class="unauthenticated">
+                  <!-- Sign Up Modal Button Trigger -->
+                  <button type="button" class="btn unauth-navbar-btn" data-toggle="modal" data-target="#sign-up-modal">
+                    <b>Sign Up!</b>
+                  </button>
+                  <!-- Sign In Modal Button Trigger -->
+                  <button type="button" class="btn unauth-navbar-btn" data-toggle="modal" data-target="#sign-in-modal">
+                    <b>Sign In!</b>
+                  </button>
+                </div>
+              </li>
+              <li class="nav-item dropdown authenticated">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  User Actions
+                </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <!-- Change Password Modal Button Trigger -->
+                    <button type="button" class="btn auth-nav-drop-btn" data-toggle="modal" data-target="#change-password-modal">
+                      Change Password
+                    </button>
+                  <div class="dropdown-divider"></div>
+                    <form id="sign-out">
+                      <button type="submit" class="btn auth-nav-drop-btn">Sign Out</button>
+                    </form>
+                  </div>
+              </li>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Badger Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+
+</div>
+        <footer id="footer">
+          &copy; Copyright 2020 - Honey Badgers.
+        </footer>
+</div>
     </body>
 </html>
